@@ -6346,6 +6346,84 @@ readers do not read off random characters that represent icons */
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-right: 1%;
+}
+
+.sousimg1, .sousimg2, .sousimg3 {
+  background-color: #38485f;
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.titreimg {
+  font-size: 130%;
+  color: #ced1d7;
+}
+
+.footer1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ced1d7;
+  background-color: #3676bb;
+}
+
+.footer1 div {
+  padding-bottom: 1%;
+  padding-top: 1%;
+  width: 100%;
+  text-align: center;
+}
+
+.footer1 i {
+  color: #5e91c9;
+  font-size: 350%;
+  padding-right: 3%;
+}
+
+.div1footer1 {
+  font-size: 150%;
+}
+
+.footer2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2%;
+  background-color: #363b47;
 }
 
 body {
