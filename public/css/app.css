@@ -6252,8 +6252,10 @@ readers do not read off random characters that represent icons */
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  width: 100%;
+  background-color: #efeff1;
 }
 
 .section2 .div1section2 {
@@ -6283,6 +6285,67 @@ readers do not read off random characters that represent icons */
 
 .section2 .div1section2 div {
   margin: 5%;
+}
+
+.section3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #efeff1;
+  width: 100%;
+  padding-bottom: 5%;
+}
+
+.titrediv1section3 {
+  font-size: 150%;
+}
+
+.div1section3 {
+  width: 20%;
+}
+
+.div1section3 div {
+  padding-top: 5%;
+}
+
+.div1section3 div button {
+  background-color: #26a2cc;
+  color: white;
+  border-radius: 10%;
+}
+
+.div2section3 {
+  width: 45%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.div2section3 .boite1, .div2section3 .boite2, .div2section3 .boite3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 body {
