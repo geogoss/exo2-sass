@@ -6243,6 +6243,48 @@ readers do not read off random characters that represent icons */
   color: #26a2cc;
 }
 
+.section2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.section2 .div1section2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 15%;
+  background-color: #e8e6e0;
+  padding: 2%;
+}
+
+.section2 .div1section2 i {
+  background-color: white;
+  color: #26a2cc;
+  border-radius: 50%;
+  font-size: 250%;
+}
+
+.section2 .div1section2 div {
+  margin: 5%;
+}
+
 body {
   margin: 0;
   padding: 0;
