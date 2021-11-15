@@ -6151,7 +6151,6 @@ readers do not read off random characters that represent icons */
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: white;
 }
 
 .div1hdr1 {
@@ -6166,6 +6165,7 @@ readers do not read off random characters that represent icons */
       -ms-flex-align: center;
           align-items: center;
   padding-left: 20%;
+  color: white;
 }
 
 .hdr1 ul {
@@ -6184,7 +6184,7 @@ readers do not read off random characters that represent icons */
 
 .hdr1 a {
   text-decoration: none;
-  color: white;
+  color: #978a8d;
 }
 
 .div2hdr1 {
@@ -6205,8 +6205,47 @@ readers do not read off random characters that represent icons */
   height: 350px;
 }
 
+.section1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #e8e6e0;
+  color: #978a8d;
+}
+
+.div1section1 {
+  width: 60%;
+  font-size: 30px;
+  margin: 5%;
+}
+
+.div1section1 #span1 {
+  background-color: #26a2cc;
+  color: white;
+}
+
+.div2section1 {
+  font-size: 25px;
+  margin-bottom: 5%;
+}
+
+.span2 {
+  color: #26a2cc;
+}
+
 body {
   margin: 0;
   padding: 0;
+  color: #978a8d;
 }
 /*# sourceMappingURL=app.css.map */
